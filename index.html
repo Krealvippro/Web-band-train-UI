@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./ImageSources/trash1.ico"
+      type="image/x-icon"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="./style/index_style.css" />
+    <title>Web-UI</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="sw-container">
+        <a href="#home"><div id="sw-home">HOME</div></a>
+        <a href="#band"><div id="sw-band">BAND</div></a>
+        <a href="#tour"><div id="sw-tour">TOUR</div></a>
+        <a href="#contact"><div id="sw-contact">CONTACT</div></a>
+        <a href="#home">
+          <div id="sw-more">
+            <span>MORE ⏷</span>
+            <div class="drop-down">
+              <div id="sw-merchandise">Merchandise</div>
+              <div id="sw-extras">Extras</div>
+              <div id="sw-media">Media</div>
+            </div>
+          </div>
+        </a>        
+      </div>
+      <img
+        id="search-btn"
+        alt="svgImg"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiNGRkZGRkY7Ij48cGF0aCBkPSJNIDIxIDMgQyAxMS42MDE1NjMgMyA0IDEwLjYwMTU2MyA0IDIwIEMgNCAyOS4zOTg0MzggMTEuNjAxNTYzIDM3IDIxIDM3IEMgMjQuMzU1NDY5IDM3IDI3LjQ2MDkzOCAzNi4wMTU2MjUgMzAuMDkzNzUgMzQuMzQzNzUgTCA0Mi4zNzUgNDYuNjI1IEwgNDYuNjI1IDQyLjM3NSBMIDM0LjUgMzAuMjgxMjUgQyAzNi42Nzk2ODggMjcuNDIxODc1IDM4IDIzLjg3ODkwNiAzOCAyMCBDIDM4IDEwLjYwMTU2MyAzMC4zOTg0MzggMyAyMSAzIFogTSAyMSA3IEMgMjguMTk5MjE5IDcgMzQgMTIuODAwNzgxIDM0IDIwIEMgMzQgMjcuMTk5MjE5IDI4LjE5OTIxOSAzMyAyMSAzMyBDIDEzLjgwMDc4MSAzMyA4IDI3LjE5OTIxOSA4IDIwIEMgOCAxMi44MDA3ODEgMTMuODAwNzgxIDcgMjEgNyBaIj48L3BhdGg+PC9zdmc+"
+      />
+    </div>
+    <div class="container">
+      <div id="home">
+        <img id="tour-country" src="./ImageSources/chicago.jpg" alt="chicago" />
+        <div id="describe">
+          <h3 id="location">Chicago</h3>
+          <p id="content">content</p>
+        </div>
+      </div>
+      <div id="band">
+        <h2 class="title">THE BAND</h2>
+        <p>We love music</p>
+        <p>
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </p>
+        <div class="memeber">
+            <div class="band-member">
+              <p>Name</p>
+              <img src="./ImageSources/bandmember.jpg" alt="member" />
+            </div>
+            <div class="band-member">
+              <p>Name</p>
+              <img src="./ImageSources/bandmember.jpg" alt="member" />
+            </div>
+            <div class="band-member">
+              <p>Name</p>
+              <img src="./ImageSources/bandmember.jpg" alt="member" />
+            </div>
+          </div>
+
+        </div>
+      <div id="tour">
+        <h2 class="title">TOUR DATES</h2>
+        <p>Remember to book your tickets</p>
+        <ul id="tour-date">
+          <li>January</li>
+          <li>February</li>
+          <li>Mark</li>
+          <li>April</li>
+          <li>May</li>
+          <li>June</li>
+          <li>July</li>
+          <li>August</li>
+          <li>September</li>
+          <li>October</li>
+          <li>November</li>
+          <li>December</li>
+        </ul>
+        <ul id="tickets"></ul>
+      </div>
+      <div id="contact">
+        <h2 class="title">CONTACT</h2>
+        <p >Fan? Drop a note!</p>
+        <div class="form-contact">
+          <div id="information-contact">
+            <div id="address">
+              <box-icon
+                name="location-plus"
+                type="solid"
+                animation="tada"
+              ></box-icon>
+              <span>Chicago, US</span>
+            </div>
+            <div id="phone">
+              <box-icon
+                name="phone-call"
+                type="solid"
+                animation="tada"
+              ></box-icon>
+              <span>Phone: +84 1234</span>
+            </div>
+            <div id="mail">
+              <box-icon
+                name="envelope"
+                type="solid"
+                animation="tada"
+              ></box-icon>
+              <span>Email: mail@gmail.com</span>
+            </div>
+          </div>
+          <div id="context-contact">
+            <div class="information-sender">
+              <input
+                type="text"
+                placeholder="Name"
+                name="sender-name"
+                id="sender-name"
+              />
+              <input
+                type="text"
+                name="sender-mail"
+                id="sender-mail"
+                placeholder="Email"
+              />
+            </div>
+            <input
+              type="text"
+              name="sender-message"
+              id="sender-message"
+              placeholder="Message"
+            />
+            <input type="button" value="Send" id="btn-send" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <img src="./ImageSources/map.jpg" alt="map">
+    <div class="boxicon">
+      <box-icon name='facebook-circle' type='logo' animation='spin' color='#0b0b0b' ></box-icon>
+      <box-icon name='instagram-alt' type='logo' animation='spin' color='#0b0b0b' ></box-icon>
+      <box-icon name='twitter' type='logo' animation='spin' color='#0b0b0b' ></box-icon>
+      <box-icon name='discord-alt' type='logo' animation='spin' color='#0b0b0b' ></box-icon>
+      <box-icon name='linkedin-square' type='logo' animation='spin' color='#0b0b0b' ></box-icon>
+    </div>
+    <div>Code by <a href="#">Kreal</a></div>
+  </footer>
+</html>
